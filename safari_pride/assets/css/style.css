@@ -1,0 +1,41 @@
+body{
+    margin:0;
+    font-family: Poppins, sans-serif;
+    background:#faf7f1;
+}
+header{
+    padding:20px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:#fff;
+}
+.logo{width:120px}
+nav a{margin:0 15px;text-decoration:none;color:#333;font-weight:600}
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  text-align: center;
+  background-image: url('../images/hero.jpg'); /* adjust path if needed */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white; /* optional: makes text visible on photo */
+}
+.hero-text h1{font-size:48px;color:white}
+.hero-text p{color:#eee;font-size:20px}
+.btn{
+    padding:12px 20px;
+    background:#a3742a;
+    color:white;
+    border-radius:8px;
+    text-decoration:none;
+}
+.form-container{
+    width:350px;margin:80px auto;background:white;padding:30px;border-radius:10px;
+}
+input{
+    width:100%;padding:12px;margin:10px 0;border:1px solid #ddd;border-radius:6px;
+}
